@@ -7,23 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F1D83621FCBDC4300065E38 /* RegisterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1D83611FCBDC4300065E38 /* RegisterTableViewController.swift */; };
+		2F1D83651FCE857300065E38 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1D83641FCE857300065E38 /* Constants.swift */; };
+		2F1D83681FCE90B000065E38 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1D83671FCE90B000065E38 /* User.swift */; };
 		2F5697D91FCA9C2F0077FDEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5697D81FCA9C2F0077FDEF /* AppDelegate.swift */; };
-		2F5697DB1FCA9C2F0077FDEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5697DA1FCA9C2F0077FDEF /* ViewController.swift */; };
+		2F5697DB1FCA9C2F0077FDEF /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5697DA1FCA9C2F0077FDEF /* SettingViewController.swift */; };
 		2F5697DE1FCA9C2F0077FDEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F5697DC1FCA9C2F0077FDEF /* Main.storyboard */; };
-		2F5697E11FCA9C2F0077FDEF /* World_Pin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2F5697DF1FCA9C2F0077FDEF /* World_Pin.xcdatamodeld */; };
 		2F5697E31FCA9C2F0077FDEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F5697E21FCA9C2F0077FDEF /* Assets.xcassets */; };
 		2F5697E61FCA9C2F0077FDEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F5697E41FCA9C2F0077FDEF /* LaunchScreen.storyboard */; };
+		2F5697FC1FCABAEA0077FDEF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5697FB1FCABAEA0077FDEF /* LoginViewController.swift */; };
+		2FC32AB91FCE92E800C385CA /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC32AB81FCE92E800C385CA /* Book.swift */; };
+		2FC32ABB1FCE935B00C385CA /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC32ABA1FCE935B00C385CA /* Schedule.swift */; };
+		2FC32ABD1FCE941800C385CA /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC32ABC1FCE941800C385CA /* Scene.swift */; };
+		2FC32ABF1FCFCA7C00C385CA /* ExploreCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC32ABE1FCFCA7C00C385CA /* ExploreCollectionViewController.swift */; };
+		CDC283775FA979F462AD999A /* Pods_World_Pin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F60E6B49F2A31A4E0CAEA0D6 /* Pods_World_Pin.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F1D83611FCBDC4300065E38 /* RegisterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterTableViewController.swift; sourceTree = "<group>"; };
+		2F1D83641FCE857300065E38 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2F1D83671FCE90B000065E38 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		2F5697D51FCA9C2F0077FDEF /* World Pin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "World Pin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F5697D81FCA9C2F0077FDEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2F5697DA1FCA9C2F0077FDEF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2F5697DA1FCA9C2F0077FDEF /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		2F5697DD1FCA9C2F0077FDEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2F5697E01FCA9C2F0077FDEF /* World_Pin.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = World_Pin.xcdatamodel; sourceTree = "<group>"; };
 		2F5697E21FCA9C2F0077FDEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F5697E51FCA9C2F0077FDEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F5697E71FCA9C2F0077FDEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F5697FB1FCABAEA0077FDEF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2FC32AB81FCE92E800C385CA /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		2FC32ABA1FCE935B00C385CA /* Schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
+		2FC32ABC1FCE941800C385CA /* Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
+		2FC32ABE1FCFCA7C00C385CA /* ExploreCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreCollectionViewController.swift; sourceTree = "<group>"; };
+		682F2931519B919E113940D7 /* Pods-World Pin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-World Pin.release.xcconfig"; path = "Pods/Target Support Files/Pods-World Pin/Pods-World Pin.release.xcconfig"; sourceTree = "<group>"; };
+		9A6DC4D1437742E46E55C8B1 /* Pods-World Pin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-World Pin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-World Pin/Pods-World Pin.debug.xcconfig"; sourceTree = "<group>"; };
+		F60E6B49F2A31A4E0CAEA0D6 /* Pods_World_Pin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_World_Pin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +49,48 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDC283775FA979F462AD999A /* Pods_World_Pin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0139EC746E1C2618B8D9B795 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A6DC4D1437742E46E55C8B1 /* Pods-World Pin.debug.xcconfig */,
+				682F2931519B919E113940D7 /* Pods-World Pin.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2F1D83631FCBDEDD00065E38 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				2F1D83641FCE857300065E38 /* Constants.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		2F1D83661FCE909E00065E38 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2F1D83671FCE90B000065E38 /* User.swift */,
+				2FC32AB81FCE92E800C385CA /* Book.swift */,
+				2FC32ABA1FCE935B00C385CA /* Schedule.swift */,
+				2FC32ABC1FCE941800C385CA /* Scene.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		2F5697CC1FCA9C2F0077FDEF = {
 			isa = PBXGroup;
 			children = (
 				2F5697D71FCA9C2F0077FDEF /* World Pin */,
 				2F5697D61FCA9C2F0077FDEF /* Products */,
+				0139EC746E1C2618B8D9B795 /* Pods */,
+				B754E3A23ABC12F9E9F40F0E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +105,35 @@
 		2F5697D71FCA9C2F0077FDEF /* World Pin */ = {
 			isa = PBXGroup;
 			children = (
-				2F5697D81FCA9C2F0077FDEF /* AppDelegate.swift */,
-				2F5697DA1FCA9C2F0077FDEF /* ViewController.swift */,
+				2F1D83661FCE909E00065E38 /* Model */,
+				2F1D83631FCBDEDD00065E38 /* Util */,
+				2F5697FA1FCABAC90077FDEF /* Controller */,
 				2F5697DC1FCA9C2F0077FDEF /* Main.storyboard */,
 				2F5697E21FCA9C2F0077FDEF /* Assets.xcassets */,
 				2F5697E41FCA9C2F0077FDEF /* LaunchScreen.storyboard */,
 				2F5697E71FCA9C2F0077FDEF /* Info.plist */,
-				2F5697DF1FCA9C2F0077FDEF /* World_Pin.xcdatamodeld */,
 			);
 			path = "World Pin";
+			sourceTree = "<group>";
+		};
+		2F5697FA1FCABAC90077FDEF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2F5697D81FCA9C2F0077FDEF /* AppDelegate.swift */,
+				2F5697DA1FCA9C2F0077FDEF /* SettingViewController.swift */,
+				2F5697FB1FCABAEA0077FDEF /* LoginViewController.swift */,
+				2F1D83611FCBDC4300065E38 /* RegisterTableViewController.swift */,
+				2FC32ABE1FCFCA7C00C385CA /* ExploreCollectionViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B754E3A23ABC12F9E9F40F0E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F60E6B49F2A31A4E0CAEA0D6 /* Pods_World_Pin.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +143,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2F5697EA1FCA9C2F0077FDEF /* Build configuration list for PBXNativeTarget "World Pin" */;
 			buildPhases = (
+				8BB7AF9262A7A34761BF89F4 /* [CP] Check Pods Manifest.lock */,
 				2F5697D11FCA9C2F0077FDEF /* Sources */,
 				2F5697D21FCA9C2F0077FDEF /* Frameworks */,
 				2F5697D31FCA9C2F0077FDEF /* Resources */,
+				8EF94A97F88FCEFA2E525DDE /* [CP] Embed Pods Frameworks */,
+				E1F07DB515C1C158567464BB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -134,14 +206,81 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8BB7AF9262A7A34761BF89F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-World Pin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EF94A97F88FCEFA2E525DDE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-World Pin/Pods-World Pin-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-World Pin/Pods-World Pin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1F07DB515C1C158567464BB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-World Pin/Pods-World Pin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2F5697D11FCA9C2F0077FDEF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F5697E11FCA9C2F0077FDEF /* World_Pin.xcdatamodeld in Sources */,
-				2F5697DB1FCA9C2F0077FDEF /* ViewController.swift in Sources */,
+				2FC32AB91FCE92E800C385CA /* Book.swift in Sources */,
+				2F5697FC1FCABAEA0077FDEF /* LoginViewController.swift in Sources */,
+				2FC32ABF1FCFCA7C00C385CA /* ExploreCollectionViewController.swift in Sources */,
+				2FC32ABD1FCE941800C385CA /* Scene.swift in Sources */,
+				2F1D83621FCBDC4300065E38 /* RegisterTableViewController.swift in Sources */,
+				2FC32ABB1FCE935B00C385CA /* Schedule.swift in Sources */,
+				2F5697DB1FCA9C2F0077FDEF /* SettingViewController.swift in Sources */,
 				2F5697D91FCA9C2F0077FDEF /* AppDelegate.swift in Sources */,
+				2F1D83651FCE857300065E38 /* Constants.swift in Sources */,
+				2F1D83681FCE90B000065E38 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,31 +415,35 @@
 		};
 		2F5697EB1FCA9C2F0077FDEF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A6DC4D1437742E46E55C8B1 /* Pods-World Pin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 35YQ8TWVH3;
 				INFOPLIST_FILE = "World Pin/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.doupi0331.app.World-Pin";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		2F5697EC1FCA9C2F0077FDEF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 682F2931519B919E113940D7 /* Pods-World Pin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 35YQ8TWVH3;
 				INFOPLIST_FILE = "World Pin/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.doupi0331.app.World-Pin";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -326,19 +469,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		2F5697DF1FCA9C2F0077FDEF /* World_Pin.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				2F5697E01FCA9C2F0077FDEF /* World_Pin.xcdatamodel */,
-			);
-			currentVersion = 2F5697E01FCA9C2F0077FDEF /* World_Pin.xcdatamodel */;
-			path = World_Pin.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 2F5697CD1FCA9C2F0077FDEF /* Project object */;
 }
