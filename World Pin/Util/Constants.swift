@@ -10,6 +10,9 @@ import UIKit
 
 // global var
 var CURRENT_USER: User?
+var BOOKS = [Book(title: "新手歐洲自助旅行攻略", createDate: Date(), image: #imageLiteral(resourceName: "defaultBook")),Book(title: "【攻略】跨國遊歐英德法16天", createDate: Date(), image: #imageLiteral(resourceName: "defaultBook")), Book(title: "新手歐洲自助旅行攻略", createDate: Date(), image: #imageLiteral(resourceName: "defaultBook")),Book(title: "【攻略】跨國遊歐英德法16天", createDate: Date(), image: #imageLiteral(resourceName: "defaultBook")), Book(title: "新手歐洲自助旅行攻略", createDate: Date(), image: #imageLiteral(resourceName: "defaultBook")),Book(title: "【攻略】跨國遊歐英德法16天", createDate: Date(), image: #imageLiteral(resourceName: "defaultBook")), Book(title: "新手歐洲自助旅行攻略", createDate: Date(), image: #imageLiteral(resourceName: "defaultBook")),Book(title: "【攻略】跨國遊歐英德法16天", createDate: Date(), image: #imageLiteral(resourceName: "defaultBook"))]
+
+
 
 // global function
 func MESSAGE(title: String, message: String) -> UIAlertController {
@@ -19,12 +22,21 @@ func MESSAGE(title: String, message: String) -> UIAlertController {
     return alert
 }
 
-func DOWNLOAD_IMAGE(path: String) -> UIImage {
-    if let url = URL(string: path), let data = try? Data(contentsOf: url), let image = UIImage(data: data) {
-        return image
+func DOWNLOAD_IMAGE(urlString: String, completion: @escaping (UIImage?) -> ()) {
+    
+    let url = URL(string: urlString)
+    let task = URLSession.shared.dataTask(with: url!) { (data, response , error) in
+        if let data = data, let image = UIImage(data: data) {
+            completion(image)
+            
+        } else {
+            completion(nil)
+        }
+        
     }
-    return #imageLiteral(resourceName: "defaultUser")
+    task.resume()
 }
+
 
 // global enum
 enum SceneType {
@@ -67,5 +79,28 @@ extension UIView {
         self.layer.shadowOffset = CGSize(width: 0, height: 6)
         self.layer.shadowRadius = 2
         self.layer.masksToBounds = false // 將超出物件的部分顯示
+    }
+    
+    func addshadow(width: Int, height: Int) {
+        self.layer.shadowColor = UIColor.gray.cgColor
+        self.layer.shadowOpacity = 0.2
+        self.layer.shadowOffset = CGSize(width: width, height: height)
+        self.layer.shadowRadius = 2
+        self.layer.masksToBounds = false // 將超出物件的部分顯示
+    }
+}
+
+extension Date {
+    func stringFormat() -> String {
+        let formatter = DateFormatter()
+        formatter.dateFormat = "yyyy-MM-dd"
+        let result = formatter.string(from: self)
+        return result
+    }
+}
+
+extension String {
+    var isReallyEmpty: Bool {
+        return self.trimmingCharacters(in: .whitespaces).isEmpty
     }
 }

@@ -10,6 +10,9 @@
 		2F1D83621FCBDC4300065E38 /* RegisterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1D83611FCBDC4300065E38 /* RegisterTableViewController.swift */; };
 		2F1D83651FCE857300065E38 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1D83641FCE857300065E38 /* Constants.swift */; };
 		2F1D83681FCE90B000065E38 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1D83671FCE90B000065E38 /* User.swift */; };
+		2F2C22A71FCFFA370016C147 /* BookCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2C22A61FCFFA370016C147 /* BookCell.swift */; };
+		2F2C22AD1FD10A230016C147 /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2C22AC1FD10A230016C147 /* ExploreViewController.swift */; };
+		2F2C22AF1FD142680016C147 /* EditUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2C22AE1FD142680016C147 /* EditUserViewController.swift */; };
 		2F5697D91FCA9C2F0077FDEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5697D81FCA9C2F0077FDEF /* AppDelegate.swift */; };
 		2F5697DB1FCA9C2F0077FDEF /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5697DA1FCA9C2F0077FDEF /* SettingViewController.swift */; };
 		2F5697DE1FCA9C2F0077FDEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F5697DC1FCA9C2F0077FDEF /* Main.storyboard */; };
@@ -19,7 +22,6 @@
 		2FC32AB91FCE92E800C385CA /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC32AB81FCE92E800C385CA /* Book.swift */; };
 		2FC32ABB1FCE935B00C385CA /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC32ABA1FCE935B00C385CA /* Schedule.swift */; };
 		2FC32ABD1FCE941800C385CA /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC32ABC1FCE941800C385CA /* Scene.swift */; };
-		2FC32ABF1FCFCA7C00C385CA /* ExploreCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC32ABE1FCFCA7C00C385CA /* ExploreCollectionViewController.swift */; };
 		CDC283775FA979F462AD999A /* Pods_World_Pin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F60E6B49F2A31A4E0CAEA0D6 /* Pods_World_Pin.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +29,9 @@
 		2F1D83611FCBDC4300065E38 /* RegisterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterTableViewController.swift; sourceTree = "<group>"; };
 		2F1D83641FCE857300065E38 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		2F1D83671FCE90B000065E38 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		2F2C22A61FCFFA370016C147 /* BookCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCell.swift; sourceTree = "<group>"; };
+		2F2C22AC1FD10A230016C147 /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
+		2F2C22AE1FD142680016C147 /* EditUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditUserViewController.swift; sourceTree = "<group>"; };
 		2F5697D51FCA9C2F0077FDEF /* World Pin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "World Pin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F5697D81FCA9C2F0077FDEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F5697DA1FCA9C2F0077FDEF /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
@@ -38,7 +43,6 @@
 		2FC32AB81FCE92E800C385CA /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		2FC32ABA1FCE935B00C385CA /* Schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
 		2FC32ABC1FCE941800C385CA /* Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
-		2FC32ABE1FCFCA7C00C385CA /* ExploreCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreCollectionViewController.swift; sourceTree = "<group>"; };
 		682F2931519B919E113940D7 /* Pods-World Pin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-World Pin.release.xcconfig"; path = "Pods/Target Support Files/Pods-World Pin/Pods-World Pin.release.xcconfig"; sourceTree = "<group>"; };
 		9A6DC4D1437742E46E55C8B1 /* Pods-World Pin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-World Pin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-World Pin/Pods-World Pin.debug.xcconfig"; sourceTree = "<group>"; };
 		F60E6B49F2A31A4E0CAEA0D6 /* Pods_World_Pin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_World_Pin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -84,6 +88,15 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		2F2C22A51FCFFA000016C147 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2F2C22A61FCFFA370016C147 /* BookCell.swift */,
+			);
+			name = View;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		2F5697CC1FCA9C2F0077FDEF = {
 			isa = PBXGroup;
 			children = (
@@ -105,8 +118,9 @@
 		2F5697D71FCA9C2F0077FDEF /* World Pin */ = {
 			isa = PBXGroup;
 			children = (
-				2F1D83661FCE909E00065E38 /* Model */,
 				2F1D83631FCBDEDD00065E38 /* Util */,
+				2F1D83661FCE909E00065E38 /* Model */,
+				2F2C22A51FCFFA000016C147 /* View */,
 				2F5697FA1FCABAC90077FDEF /* Controller */,
 				2F5697DC1FCA9C2F0077FDEF /* Main.storyboard */,
 				2F5697E21FCA9C2F0077FDEF /* Assets.xcassets */,
@@ -123,7 +137,8 @@
 				2F5697DA1FCA9C2F0077FDEF /* SettingViewController.swift */,
 				2F5697FB1FCABAEA0077FDEF /* LoginViewController.swift */,
 				2F1D83611FCBDC4300065E38 /* RegisterTableViewController.swift */,
-				2FC32ABE1FCFCA7C00C385CA /* ExploreCollectionViewController.swift */,
+				2F2C22AC1FD10A230016C147 /* ExploreViewController.swift */,
+				2F2C22AE1FD142680016C147 /* EditUserViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -273,11 +288,13 @@
 			files = (
 				2FC32AB91FCE92E800C385CA /* Book.swift in Sources */,
 				2F5697FC1FCABAEA0077FDEF /* LoginViewController.swift in Sources */,
-				2FC32ABF1FCFCA7C00C385CA /* ExploreCollectionViewController.swift in Sources */,
+				2F2C22A71FCFFA370016C147 /* BookCell.swift in Sources */,
+				2F2C22AF1FD142680016C147 /* EditUserViewController.swift in Sources */,
 				2FC32ABD1FCE941800C385CA /* Scene.swift in Sources */,
 				2F1D83621FCBDC4300065E38 /* RegisterTableViewController.swift in Sources */,
 				2FC32ABB1FCE935B00C385CA /* Schedule.swift in Sources */,
 				2F5697DB1FCA9C2F0077FDEF /* SettingViewController.swift in Sources */,
+				2F2C22AD1FD10A230016C147 /* ExploreViewController.swift in Sources */,
 				2F5697D91FCA9C2F0077FDEF /* AppDelegate.swift in Sources */,
 				2F1D83651FCE857300065E38 /* Constants.swift in Sources */,
 				2F1D83681FCE90B000065E38 /* User.swift in Sources */,

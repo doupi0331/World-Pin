@@ -9,40 +9,34 @@
 import UIKit
 import FBSDKLoginKit
 
-class SettingViewController: UIViewController {
-
+class SettingViewController: UIViewController, EditUserDelegate {
+    
+    @IBOutlet weak var photoView: UIView!
     @IBOutlet weak var photoImageView: UIImageView!
     @IBOutlet weak var nameLabel: UILabel!
-    @IBOutlet weak var emailLabel: UILabel!
-    @IBOutlet weak var typeLabel: UILabel!
+    @IBOutlet weak var logoutButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-    }
-    
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(true)
-        guard CURRENT_USER != nil else {
-            self.performSegue(withIdentifier: "loginSegue", sender: nil)
-            return
-        }
+        uiBeatify()
         
         nameLabel.text = CURRENT_USER?.name
-        emailLabel.text = CURRENT_USER?.email
-        typeLabel.text = CURRENT_USER?.userType.rawValue
-        
-        if let photo = CURRENT_USER?.photo {
-            photoImageView.image = photo
-        } else {
-            photoImageView.image = #imageLiteral(resourceName: "defaultUser")
-        }
-        
+        photoImageView.image = CURRENT_USER?.photo
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    func uiBeatify() {
+        logoutButton.clearButton()
+        photoView.addshadow(width: 0, height: 3)
+    }
+    
+    func update(user: User) {
+        photoImageView.image = user.photo
+        nameLabel.text = user.name
+        CURRENT_USER = user
+    }
+    
+    @IBAction func editButtonPressed(_ sender: Any) {
+        performSegue(withIdentifier: "EditUserSegue", sender: CURRENT_USER)
     }
     
     @IBAction func logoutButtonPressed(_ sender: Any) {
@@ -50,7 +44,21 @@ class SettingViewController: UIViewController {
             FBSDKLoginManager().logOut()
         }
         CURRENT_USER = nil
-        self.performSegue(withIdentifier: "logoutSegue", sender: nil)
+        performSegue(withIdentifier: "logoutSegue", sender: nil)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let navigation = segue.destination as? UINavigationController {
+            if let editUserViewController = navigation.topViewController as? EditUserViewController {
+                editUserViewController.delegate = self
+                editUserViewController.user = CURRENT_USER
+            }
+        }
+    }
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
     }
 }
 
